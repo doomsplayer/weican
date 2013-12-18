@@ -13,5 +13,6 @@ type Gate struct {
 }
 
 func (this *Gate) Get() {
+
 	this.TplNames = "gate.html"
 }

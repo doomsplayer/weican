@@ -1,14 +1,12 @@
 package main
 
 import (
-	"weican/controllers"
-	"github.com/astaxie/beego"
 	"fmt"
+	"github.com/astaxie/beego"
+	"weican/controllers"
 )
 
 func main() {
 	beego.Router("/", &controllers.MainController{})
 	beego.Run()
-	beego.
 }
-

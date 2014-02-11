@@ -3,28 +3,20 @@
 <html>
 <head>
 	<title>Gate</title>
-	<style type="text/css">
-	body {
-		background-color: #dadf00;
-	}
-	html,body,.body,img{
-		max-width: 100%;
-
-	}
-
-	</style>
+	<link type="text/css" href="/statics/css/gate/gate.css" rel="stylesheet"/>
 </head>
 
 <body>
 	<header></header>
-	<div class="body">
-		<center>
-			<img src="/statics/img/gate/gate-demo.jpg" border="0" usemap="#gatemap"/>
-			<map name="gatemap" id="gatemap">
-				<area shape="rect" coords="180,139,14" href ="/company"  />
-				<area shape="rect" coords="129,161,10" href ="/person" />
-			</map>
-		</center>
+	<div class="content">
+		<div class="logo"><img src="/statics/img/gate/allinone.png"/></div>
+		<div id="entry">
+			<img id="barleft" src="/statics/img/gate/barleft.png"/>
+			<a href="/company/about"><div class="entry-box" id="entry-box-left">企业版</div></a>
+			<a href="/individual/index"><div class="entry-box" id="entry-box-right">个人版</div></a>
+			<img id="barright" src="/statics/img/gate/barright.png"/>
+		</div>
+		<div><img src="/statics/img/gate/gategirl.png"/></div>
 	</div>
 	<footer></footer>
 </body>

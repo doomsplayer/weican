@@ -9,7 +9,7 @@ import (
 )
 
 func main() {
-	httplib.Get(``)
+	httpli
 	lastUpdate := ``
 
 }

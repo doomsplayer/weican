@@ -1,0 +1,14 @@
+* {
+	margin:0px;
+	padding:0px;
+}
+
+a {
+	text-decoration:none;
+}
+.common-font {
+	color:#00683e;
+}
+.clear {
+	clear:both;
+}
